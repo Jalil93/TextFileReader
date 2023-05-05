@@ -32,7 +32,7 @@ public class TextToDataStructure {
     }
 
     public static LinkedList<String> generateList(String text) {
-        String[] splitArray = text.toLowerCase().split(" ");
+        String[] splitArray = text.toLowerCase().split(",");
         LinkedList<String> finalList = new LinkedList<String>(Arrays.asList(splitArray));
         try{
             System.out.println("first item is "+ finalList.get(0));
